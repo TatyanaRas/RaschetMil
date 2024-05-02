@@ -1,12 +1,12 @@
 public class BonusMilesService {
     public int calculate(int price) {
-        int colvoMil;
+        int numberMil;
         if (price < 20) {
-            colvoMil = 0;
+            numberMil = 0;
         } else {
-            colvoMil = price / 20;
+            numberMil = price / 20;
         }
-        return colvoMil;
+        return numberMil;
 
     }
 }
